@@ -1,0 +1,98 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Secrets and configuration
+# =========================
+.env
+.env.*
+*.pem
+*.key
+credentials.*
+secrets.*
+config/local.*
+
+# =========================
+# Raw / large datasets
+# =========================
+data/raw/*
+data/staging/*
+data/processed/*
+data/output/*
+
+# Keep folder structure in Git
+!data/raw/.gitkeep
+!data/staging/.gitkeep
+!data/processed/.gitkeep
+!data/output/.gitkeep
+
+# =========================
+# Database files
+# =========================
+*.duckdb
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Parquet / large data files
+# =========================
+*.parquet
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.zip
+*.7z
+*.gz
+
+# =========================
+# Power BI
+# =========================
+*.pbix
+*.pbit
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs / temporary files
+# =========================
+*.log
+logs/
+tmp/
+temp/
+
+# Internal project / AI working documents
+_internal/
