@@ -1,0 +1,16 @@
+pandas
+polars
+duckdb
+pyarrow
+jupyterlab
+sqlalchemy
+python-dotenv
+numpy
+scipy
+statsmodels
+scikit-learn
+matplotlib
+seaborn
+plotly
+pandera
+pytest
