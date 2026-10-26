@@ -96,3 +96,41 @@ temp/
 
 # Internal project / AI working documents
 _internal/
+
+# Public portfolio boundary: embedded models and local report projects stay private.
+reports/
+*.pbip
+*.pbir
+*.tmdl
+data/analytical/
+00_Project_Management/
+AGENTS.md
+SKILL.md
+.agents/
+.codex/
+
+# Publish curated guides, not the historical working-document collection.
+docs/*
+!docs/architecture.md
+!docs/methodology.md
+!docs/reproduction.md
+!docs/validation.md
+!docs/dashboard.md
+!docs/images/
+docs/images/*
+!docs/images/executive-overview.png
+!docs/images/asset-quality.png
+!docs/images/capital-adequacy.png
+
+# Exploratory diagnostics are retained locally.
+src/diagnose_*.py
+src/inspect_*.py
+src/validation/inspect_*.py
+src/validation/investigate_*.py
+src/validation/trace_*.py
+src/validation/*candidate.py
+src/validation/validate_raw_fact_*.py
+src/validation/validate_loans_advances_perf_reconciliation.py
+
+# No input, output or empty data-placeholder files in the public release.
+/data/
